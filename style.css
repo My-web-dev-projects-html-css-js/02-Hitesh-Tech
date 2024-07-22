@@ -99,5 +99,24 @@ a{
         text-transform: uppercase;
         font-weight: 600;
         display: inline-block;
+        position: relative;
+
+        &::after{
+            content: "";
+            position: absolute;
+            bottom: -0.3rem;
+            left: 0;
+            width: 0%;
+            border-bottom: 2px solid var(--main-color);
+            transition: all 0.3s linear;
+            -webkit-transition: all 0.3s linear;
+            -moz-transition: all 0.3s linear;
+            -ms-transition: all 0.3s linear;
+            -o-transition: all 0.3s linear;
+}
+    }
+
+    & li a:hover::after{
+        width: 100%;
     }
 }
