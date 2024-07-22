@@ -248,3 +248,59 @@ main{
     -ms-transform: rotate(360deg);
     -o-transform: rotate(360deg);
 }
+
+
+
+
+
+/* course section */
+
+.fa-brands{
+    padding: 2.4rem;
+    background-color: var(--supporting-color);
+    color: darkblue;
+    font-size: 2.4rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.section-course .grid{
+    grid-template-columns: repeat(4,1fr);
+    gap: 3.2rem;
+}
+
+.section-course .course-div{
+    padding: 3.2rem;
+}
+.section-course .course-div:hover{
+    box-shadow: var(--btn-box-shadow);
+}
+
+
+.course-div:nth-child(1) .icon i{
+    background-color: rgb(228, 246, 244);
+    color: #7de2f2;
+}
+.course-div:nth-child(3) .icon i{
+    background-color: rgb(239, 246, 212);
+    color: #a0c608;
+}
+.course-div:nth-child(4) .icon i{
+    background-color: rgb(205, 195, 240);
+    color: #3c077d;
+}
+.course-div:nth-child(5) .icon i{
+    background-color: rgb(248, 231, 180);
+    color: #d78f08;
+}
+.course-div:nth-child(6) .icon i{
+    background-color: rgb(228, 246, 244);
+    color: #7de2f2;
+}
+.course-div:nth-child(7) .icon i{
+    background-color: rgb(243, 196, 187);
+    color: #d22c13;
+}
