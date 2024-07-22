@@ -60,3 +60,16 @@ a{
     box-shadow: var(--btn-box-shadow);
 }
 
+
+
+/* header logo*/
+.logo>a{
+    font-size: 2rem;
+    padding: 1rem 1.2rem;    
+}
+
+.logo a span{
+    background-color: rgb(27, 173, 231);
+    color: white;
+    padding: 1rem 2rem;
+}
