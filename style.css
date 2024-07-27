@@ -255,6 +255,10 @@ main{
 
 /* course section */
 
+.section-course{
+    background-color: #f8faff;
+}
+
 .fa-brands{
     padding: 2.4rem;
     background-color: var(--supporting-color);
@@ -303,4 +307,170 @@ main{
 .course-div:nth-child(7) .icon i{
     background-color: rgb(243, 196, 187);
     color: #d22c13;
+}
+
+
+/* why choose section */
+.section-why-choose{
+    margin-top: 8rem;
+}
+
+.section-why-choose .grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+}
+
+.section-why-choose .common-highlight{
+    width: 5rem;
+    aspect-ratio: 1;
+    background-color: var(--supporting-color);
+    color: var(--main-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.4rem;
+    margin: 2.4rem 0 0.5rem 0px;
+    font-weight: 700;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.section-why-choose .common-title{
+    font-size: 1.6rem;
+}
+
+.section-why-choose .choose-left .why-choose-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-end;
+    text-align: justify;
+}
+
+.section-why-choose .image{
+    background-image: url(images/phone.webp);
+    background-size: cover;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    align-items: center;
+    justify-items: center;
+    aspect-ratio: 0.9;
+
+    & img{
+        width: 42%;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+    }
+
+    & .why-image-heading{
+        font-size: 2.4rem;
+        /* background-color: #0062ff; */
+        padding: 8px 12px;
+    }
+
+}
+
+
+
+
+/* contact section */
+.section-contact{
+    z-index: 2;
+    position: relative;
+    bottom: -20em;
+    width: 60%;
+    min-height: 30rem;
+    margin: 0 auto;
+    box-shadow: 0px 6px 24px 0px rgba(0,0,0,0.05),0px 0px 0px 1px rgba(0,0,0,0.08);
+    border-radius: 0.2rem;
+    padding: auto 3.2rem;
+    background-color: var(--supporting-color);
+
+    & .grid{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        gap: 4rem;
+    }
+    & .content-image{
+        width: 90%;
+        transform: scaleX(-1);              /*rotate image to left*/
+        -webkit-transform: scaleX(-1);
+        -moz-transform: scaleX(-1);
+        -ms-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+    }
+    
+}
+
+.section-contact img{
+    width: 80%;
+    
+}
+
+.section-contact .container{
+    padding: auto 3.2rem;
+}
+
+.content-content{
+    margin: 1.2rem 0 2.4rem 0;
+    
+    & a{
+        background-color: #0062ff;
+        color: white;
+        padding: 8px 12px;
+        margin-top: 1rem;
+        border-radius: 5%;
+        -webkit-border-radius: 5%;
+        -moz-border-radius: 5%;
+        -ms-border-radius: 5%;
+        -o-border-radius: 5%;
+}
+
+    & p{
+        margin-top: 1rem;
+    }
+}
+.content-title{
+    font-size: 3.8rem;
+    line-height: 1.2;
+}
+
+
+
+
+/* footer section */
+footer{
+    background-color: #000a19;
+    height: 50vh;
+
+    & .social-footer-icons a{
+        padding: 0 1rem;
+    }
+}
+footer *{
+    color: white;
+}
+footer .footer-div1,.footer-div2,.footer-div3,.footer-div4{
+    margin-top: 25rem;
+}
+footer .container{
+    margin: 0 auto;
+}
+
+footer .grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 4rem;
+    align-items: center;
+    justify-items: center;
 }
