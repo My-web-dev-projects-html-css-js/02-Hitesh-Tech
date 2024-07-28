@@ -475,3 +475,24 @@ footer .grid{
     align-items: center;
     justify-items: center;
 }
+.social-footer-icons .fa-brands{
+    scale: 0.8;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    background-color: white;
+}
+
+
+.social-footer-icons .fa-brands:hover{
+    transform: rotate(360deg);
+    scale: 1;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    background-color: #bbbbbb;
+}
+
+
